@@ -334,8 +334,6 @@ class Dashboard extends Component {
                     objectArr.push(obj);
                 });
     
-    
-                // setup graph header - x-axis
                 var x_axis = this.state.finalSQL.map(Object.keys)
                 this.setState({sqlX: x_axis[0]})
     
