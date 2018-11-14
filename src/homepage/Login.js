@@ -50,15 +50,15 @@ class Login extends Component {
                         className="block border rounded p-3 mb-6 w-full"
                         ref={(pw) => this.pw = pw} />
                     <hr/>
-                    {this.state.loginMessage ? 
+                    {this.state.loginMessage &&
                         (
                             <div role="alert">
                                 <span>Error</span>
                                 <h3>Error: {this.state.loginMessage} <br/><a href="/" onClick={this.resetPassword}>forgot password> </a></h3>
                             </div>
-                        ): (<button className="block text-lg font-bold bg-blue w-full p-3 rounded text-white hover:bg-blue-dark hover:shadow-md">Login</button>)
-                    }
-                    
+                        ) 
+                     }
+                     <button className="block text-lg font-bold bg-blue w-full p-3 rounded text-white hover:bg-blue-dark hover:shadow-md" >Register</button>
                 </form>
                 <div className="py-4 px-1 text-black text-sm border-b border-grey-lighter">Don't have an account yet, register <Link to="/register">here</Link></div>
             </div>

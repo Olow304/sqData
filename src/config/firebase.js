@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 
 const config = {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: ""
+    apiKey: "AIzaSyAKCKQ4Zhqp96WcxROepTEZ9le_6FmzIAk",	
+    authDomain: "final-faraday-project.firebaseapp.com",	   
+    databaseURL: "https://final-faraday-project.firebaseio.com",
+    projectId: "final-faraday-project",	  
+    storageBucket: "final-faraday-project.appspot.com",	
+    messagingSenderId: "644910716714"
 };
 
 firebase.initializeApp(config);

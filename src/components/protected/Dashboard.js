@@ -516,7 +516,7 @@ class Dashboard extends Component {
                             </React.Fragment>
                         ): (
                             <div className="table-details border-t-blue-data border border-grey-light border-t-4 rounded px-2 py-2 mb-1">
-                                <h2 style={{position: 'absolute', top: '50%', left: '50%', transform: 'translateX(-50%) translateY(-50%)'}}>Please choose or <a href="#" onClick={() => this.setState({isPaneOpen: true})}>upload</a> your name on the left-side bar.</h2>
+                                <h4 style={{position: 'absolute', top: '50%', left: '50%', transform: 'translateX(-50%) translateY(-50%)'}}>Please choose or <a href="#" onClick={() => this.setState({isPaneOpen: true})}>upload</a> your name on the left-side bar.</h4>
                             </div>
                         )}
                         {/*this.state.ErrorSQL && (
