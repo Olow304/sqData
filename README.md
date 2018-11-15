@@ -11,18 +11,18 @@ Simple SQL Client for lightweight data analysis using Reactjs framework.
 ### Get charts 
 <img width="600" src="https://i.imgur.com/kISZjuZ.jpg" >
 
-## Features complete:
+## Features completed:
 * [x] authentication
 * [x] Upload csv data 
 * [x] Analysis your data using SQL
 * [x] Get Charts and more.
 
-## Features to be complte:
+## Features need to be added:
 * [ ] Supporting multiple data sources
-* [ ] MySQL
-* [ ] PostgreSQL (Amazon Redshift)
-* [ ] SQLite3
-* [ ] Amazon Athena
+* [ ]   MySQL
+* [ ]   PostgreSQL (Amazon Redshift)
+* [ ]   SQLite3
+* [ ]   Amazon Athena
 
 ## Demo
 You can try the live demo here: [https://data-analysis.netlify.com](https://data-analysis.netlify.com)
