@@ -32,7 +32,7 @@ You can start the application with following commands.
 
 ```
 # git clone https://github.com/Olow304/sqData.git
-# cd cd sqData
+# cd sqData
 # npm install
 # npm start
 ```
