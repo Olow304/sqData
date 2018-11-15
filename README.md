@@ -28,7 +28,7 @@ Simple SQL Client for lightweight data analysis using Reactjs framework.
 You can try the live demo here: [https://data-analysis.netlify.com](https://data-analysis.netlify.com)
 
 ## Installation
-You can start the application with following commands.
+You can start the application with following commands. make sure modify the firebase file, once you sigup firebase edit this file located here: <b>sqData/src/config/firebase.js</b>
 
 ```
 # git clone https://github.com/Olow304/sqData.git
