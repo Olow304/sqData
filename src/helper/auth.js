@@ -21,8 +21,6 @@ export function saveUser(user){
     .set({
         uid: user.uid,
         
-    }).then(() => {
-        console.log("Here is user info: ", user)
-    })
+    }).then(() => {})
 
 }
